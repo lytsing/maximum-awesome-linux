@@ -67,7 +67,7 @@ namespace :install do
   desc 'Install ctags'
   task :ctags do
     step 'ctags'
-    sh 'sudo apt-get install ctags'
+    sh 'sudo apt-get install exuberant-ctags'
   end
 
   # https://github.com/ggreer/the_silver_searcher
